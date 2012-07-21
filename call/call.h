@@ -2,7 +2,7 @@
 #include <errno.h>
 #include <sys/time.h>
 
-#define	CS_CALL	"/home/sar/calld"	/* well-known server name */
+#define	CS_CALL	"/home/carton/devel/apue/apue2e/calld"	/* well-known server name */
 #define	CL_CALL	"call"				/* command for server */
 
 extern char	 escapec;	/* tilde for local commands */

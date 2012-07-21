@@ -2,7 +2,7 @@
 #include <fcntl.h>
 
 #define	DEPTH	100			/* directory depth */
-#define	MYHOME	"/home/sar"
+#define	MYHOME	"/home/carton/devel/apue/apue2e"
 #define	NAME	"alonglonglonglonglonglonglonglonglonglongname"
 #define MAXSZ	8192
 

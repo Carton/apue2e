@@ -9,7 +9,7 @@ main(void)
 	if ((pid = fork()) < 0) {
 		err_sys("fork error");
 	} else if (pid == 0) {			/* child */
-		if (execl("/home/sar/bin/testinterp",
+		if (execl("/home/carton/devel/apue/apue2e/bin/testinterp",
 				  "testinterp", "myarg1", "MY ARG2", (char *)0) < 0)
 			err_sys("execl error");
 	}

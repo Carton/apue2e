@@ -1,7 +1,7 @@
 #include "apue.h"
 #include <errno.h>
 
-#define	CS_OPEN "/home/sar/opend"	/* well-known name */
+#define	CS_OPEN "/home/carton/devel/apue/apue2e/opend"	/* well-known name */
 #define	CL_OPEN "open"				/* client's request for server */
 
 extern int	 debug;		/* nonzero if interactive (not daemon) */

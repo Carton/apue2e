@@ -1,7 +1,7 @@
 #include "apue.h"
 #include <errno.h>
 
-#define	CS_CALL	"/home/sar/calld"	/* well-known name */
+#define	CS_CALL	"/home/carton/devel/apue/apue2e/calld"	/* well-known name */
 #define	CL_CALL	"call"
 #define	MAXSYSNAME	256
 #define	MAXSPEEDSTR	256
