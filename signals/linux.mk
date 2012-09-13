@@ -1,7 +1,7 @@
 include ../Make.defines.linux
 
 PROGS =	child critical mask read1 read2 reenter sigtstp \
-	sigusr suspend1 suspend2 tsleep2 alarm
+	sigusr suspend1 suspend2 tsleep2 alarm stop_alarm_test
 
 all:	abort.o sleep1.o sleep2.o system.o tsleep2.o ${PROGS}
 
