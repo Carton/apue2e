@@ -1,9 +1,6 @@
 /*
  * Print server daemon.
  */
-#include "apue.h"
-#include "print.h"
-#include "ipp.h"
 #include <fcntl.h>
 #include <dirent.h>
 #include <ctype.h>
@@ -12,6 +9,9 @@
 #include <strings.h>
 #include <sys/select.h>
 #include <sys/uio.h>
+#include "apue.h"
+#include "print.h"
+#include "ipp.h"
 
 /*
  * These are for the HTTP response from the printer.

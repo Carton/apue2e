@@ -33,6 +33,7 @@ main(void)
 		for (i = 0; i < NLOOPS; i += 2) {
 			if ((counter = update((long *)area)) != i)
 				err_quit("parent: expected %d, got %d", i, counter);
+			printf("Counter in parent: %d\n", counter);
 
 			TELL_CHILD(pid);
 			WAIT_CHILD();
@@ -43,6 +44,7 @@ main(void)
 
 			if ((counter = update((long *)area)) != i)
 				err_quit("child: expected %d, got %d", i, counter);
+			printf("Counter in child: %d\n", counter);
 
 			TELL_PARENT(getppid());
 		}
